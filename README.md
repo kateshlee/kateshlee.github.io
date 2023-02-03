@@ -20,7 +20,7 @@ or
 $F_n=\dfrac{\left(\dfrac{1+\sqrt{5}}{2}\right)^n-\left(\dfrac{1-\sqrt{5}}{2}\right)^n}{\sqrt{5}}$
 '''
 
-## 설치하는법
+## 설치하는 법
 
 ```shell
 $ git clone {addr}
@@ -40,7 +40,7 @@ $ python main.py
 
 '''python
 def checker(answer: int, guess: int) -> bool:
-    if guess == answer:
+    if guess==answer:
     	print('Correct!')
 	return True
     else:
