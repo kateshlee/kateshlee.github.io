@@ -10,15 +10,18 @@ github flavored markdown은 수식 표현을 제공합니다.
 
 예를 들면, 
 
+### Binet's formula
+
 $F_n=\dfrac{\left(\dfrac{1+\sqrt{5}}{2}\right)^n-\left(\dfrac{1-\sqrt{5}}{2}\right)^n}{\sqrt{5}}$
 
 or
 
 '''math
-F_n=\dfrac{\left(\dfrac{1+\sqrt{5}}{2}\right)^n-\left(\dfrac{1-\sqrt{5}}{2}\right)^n}{\sqrt{5}}
+$F_n=\dfrac{\left(\dfrac{1+\sqrt{5}}{2}\right)^n-\left(\dfrac{1-\sqrt{5}}{2}\right)^n}{\sqrt{5}}$
 '''
 
 ## 설치하는 법
+
 '''shell
 $ git clone{addr}
 $ cd {repo name}
@@ -34,6 +37,7 @@ $python main.py
 ## 기능 설명
 
 ### 정답 확인하는 함수
+
 '''python
 def checker(answer: int, guess: int) -> bool:
     if guess == answer:
