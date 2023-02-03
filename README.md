@@ -30,15 +30,15 @@ $ pip install -r requirements.txt
 
 ## 시작하는 법
 
-'''shell
+```shell
 $ python main.py
-'''
+```
 
 ## 기능 설명
 
 ### 정답 확인하는 함수
 
-'''python
+```python
 def checker(answer: int, guess: int) -> bool:
     if guess==answer:
     	print('Correct!')
@@ -46,7 +46,7 @@ def checker(answer: int, guess: int) -> bool:
     else:
     	print('Wrong!')
 	return False
-'''
+```
 
 ## 더 많은 정보
 
