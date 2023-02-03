@@ -10,7 +10,7 @@ github flavored markdown은 수식 표현을 제공합니다.
 
 예를 들면, 
 
-### Binet's formula
+### Banet's formula
 
 $F_n=\dfrac{\left(\dfrac{1+\sqrt{5}}{2}\right)^n-\left(\dfrac{1-\sqrt{5}}{2}\right)^n}{\sqrt{5}}$
 
