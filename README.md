@@ -20,18 +20,18 @@ or
 $F_n=\dfrac{\left(\dfrac{1+\sqrt{5}}{2}\right)^n-\left(\dfrac{1-\sqrt{5}}{2}\right)^n}{\sqrt{5}}$
 '''
 
-## 설치하는 법
+## 설치하는법
 
-'''shell
-$ git clone{addr}
+```shell
+$ git clone {addr}
 $ cd {repo name}
 $ pip install -r requirements.txt
-'''
+```
 
 ## 시작하는 법
 
 '''shell
-$python main.py
+$ python main.py
 '''
 
 ## 기능 설명
@@ -50,4 +50,4 @@ def checker(answer: int, guess: int) -> bool:
 
 ## 더 많은 정보
 
--[google](http://www.google.com/)
+- [google](http://www.google.com/)
